@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ComponentTest = styled.h2`
+export const Container = styled.div`
     color: red;
 `
 
