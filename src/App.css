@@ -25,7 +25,29 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #000;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #429B46;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+h5{
+  font-size: 1.3rem;
+}
+
+a:hover{
+  color: #1A8828;
 }
 
 @keyframes App-logo-spin {

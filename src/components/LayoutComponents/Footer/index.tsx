@@ -13,39 +13,39 @@ export default function FooterComponent(props: FooterProps) {
         <Footer>
             <Container>
                 <ContainerImage>
-                    TESTE IMAGEM
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt reprehenderit esse illo ipsa exercitationem excepturi ratione laboriosam, illum praesentium vitae incidunt inventore iusto error sit impedit magni ullam soluta natus!
                 </ContainerImage>
                 <ContainerItem>
                     <h5>
-                    Navigation
+                        Navigation
                     </h5>
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Menu</li>
-                        <li>Reservation</li>
-                        <li>Order Online</li>
-                        <li>Login</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/">About</Link></li>
+                        {/* <li>Menu</li> */}
+                        <li><Link to="/">Reservation</Link></li>
+                        {/* <li>Order Online</li> */}
+                        {/* <li>Login</li> */}
                     </ul>
                 </ContainerItem>
                 <ContainerItem>
                     <h5>
-                    Contact
+                        Contact
                     </h5>
                     <ul>
-                        <li>Phone Number</li>
-                        <li>Email</li>
-                        <li>Address</li>
+                        <li><Link to="/">Phone Number</Link></li>
+                        <li><Link to="/">Email</Link></li>
+                        <li><Link to="/">Adress</Link></li>
                     </ul>
                 </ContainerItem>
                 <ContainerItem>
                     <h5>
-                    Social Media
+                        Social Media
                     </h5>
                     <ul>
-                        <li>Instagram</li>
-                        <li>LinkedIn</li>
-                        <li>Pinterest</li>
+                        <li><Link to="/">Instagram</Link></li>
+                        <li><Link to="/">LinkedIn</Link></li>
+                        <li><Link to="/">Pinterest</Link></li>
                     </ul>
                 </ContainerItem>
             </Container>
